@@ -16,5 +16,9 @@
 | `julia.py` |
 ![chaos_game](images/chaos_game.png)
 | `chaos_game.py` |
-![ifs](images/ifs.png)
+|![antlers](images/antlers.png)|
+|![dragon_curve](images/dragon_curve.png)|
+|![sierpinski_triangle](images/sierpinski_triangle.png)|
+|![sierpinski_carpet](images/sierpinski_carpet.png)|
+|![koch_snowflake](images/koch_snowflake.png)|
 | `iterated_function_system.py` |
