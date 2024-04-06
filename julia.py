@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# Define the function for iteration: x_n+1 = x_n^2 + c
 class JuliaFunction:
     def __init__(self, c):
         self.c = c
@@ -36,7 +35,7 @@ def julia_set(func, xlim=(-2, 2), ylim=(-2, 2), width=800, height=800, max_iter=
     plt.imshow(img, extent=(xlim[0], xlim[1], ylim[0], ylim[1]), cmap="plasma")
     plt.xlabel("Re")
     plt.ylabel("Im")
-    plt.title("Julia Set")
+    plt.title(f"Filled Julia Set (c = {func.c.real} + {func.c.imag}i)")
     plt.show()
 
 

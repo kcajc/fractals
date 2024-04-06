@@ -50,7 +50,7 @@ if __name__ == "__main__":
     ]
 
     # Initial space - a square
-    # initial_points = np.array([[x, y] for x in np.linspace(0, 1, 100) for y in np.linspace(0, 1, 100)])
+    # e.g. initial_points = np.array([[x, y] for x in np.linspace(0, 1, 100) for y in np.linspace(0, 1, 100)])
     # Initial space - a line segment
     initial_points = np.array([[0, y] for y in np.linspace(0, 1, 1000)])
 
