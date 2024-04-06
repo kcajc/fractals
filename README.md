@@ -9,11 +9,12 @@
 
 ## Samples
 
-![mandelbrot](images/mandelbrot.png)
-
-![julia](images/julia.png)
-
+|![mandelbrot](images/mandelbrot.png)|
+|:--:| 
+| `mandelbrot.py` |
+|![julia](images/julia.png)|
+| `julia.py` |
 ![chaos_game](images/chaos_game.png)
-
+| `chaos_game.py` |
 ![ifs](images/ifs.png)
-
+| `iterated_function_system.py` |
