@@ -4,8 +4,6 @@ import numpy as np
 
 def mandelbrot_set(center=(0, 0), zoom=1, width=800, height=800, max_iter=300):
     """
-    Generate and plot the Mandelbrot set.
-
     :param center: Center point in the complex plane around which to generate the set.
     :param zoom: Zoom level for the visualization.
     :param width: Image width in pixels.
